@@ -20,7 +20,7 @@ model = load_model()
 scaler = load_scaler()
 
 # Streamlit UI Design
-st.set_page_config(page_title="Loan Approval Prediction", page_icon="💰", layout="centered")
+st.set_page_config(page_title="Loan Approval Prediction")
 
 st.markdown("""
     <style>
